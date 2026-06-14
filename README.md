@@ -62,8 +62,7 @@ new_project/
 ├── main.py              # 训练脚本（含模型定义、数据加载、训练循环、TensorBoard 日志）
 ├── test.py              # 测试脚本（5 折 × 1000 样本，输出均值和标准差）
 ├── test1.py             # 单张图片推理脚本（输入图片→输出类别名称）
-├── model/
-│   └── best_model.pth   # 最佳模型权重（torch.save 完整模型）
+├──  best_model.pth   # 最佳模型权重（torch.save 完整模型）
 └── README.md
 ```
 
